@@ -1,0 +1,45 @@
+<style>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+form {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+input[type="text"] {
+    width: 80%;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+input[name="submit"] {
+    width: 20%;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[name="reset"] {
+    width: 20%;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+</style>

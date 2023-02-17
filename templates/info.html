@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Request Summary</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/table.css" />
+  </head>
+  <body>
+  <h1>Request Summary</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Method</th>
+          <th>Payload</th>
+          <th>Status</th>
+          <th>Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in data %}
+        <tr>
+          <td>{{ row.method }}</td>
+          <td>{{ row.payload }}</td>
+          <td>{{ row.status }}</td>
+          <td>{{ row.timestamp }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
