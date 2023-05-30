@@ -5,3 +5,9 @@ Reset button to reset the data.
 
 /info page displays the summarized http requests.
 ![img_1.png](img_1.png)
+
+Installation Steps:
+
+git clone <<repo>>
+cd <<repo>>
+docker compose up -d
