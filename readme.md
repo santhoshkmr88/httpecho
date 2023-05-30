@@ -6,8 +6,9 @@ Reset button to reset the data.
 /info page displays the summarized http requests.
 ![img_1.png](img_1.png)
 
+
 Installation Steps:
 
-git clone <<repo>>
-cd <<repo>>
+git clone https://github.com/santhoshkmr88/httpecho.git
+cd httpecho
 docker compose up -d
