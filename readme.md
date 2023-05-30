@@ -9,6 +9,6 @@ Reset button to reset the data.
 
 Installation Steps:
 
-git clone https://github.com/santhoshkmr88/httpecho.git
-cd httpecho
+git clone https://github.com/santhoshkmr88/httpecho.git && 
+cd httpecho &&
 docker compose up -d
